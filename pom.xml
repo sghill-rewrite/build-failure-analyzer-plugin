@@ -10,13 +10,13 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>4.67</version>
+        <version>4.86</version>
     </parent>
 
     <properties>
         <revision>2.5.3</revision>
         <changelist>-SNAPSHOT</changelist>
-        <jenkins.version>2.375.3</jenkins.version>
+        <jenkins.version>2.440.3</jenkins.version>
         <checkstyle.version>3.1.1</checkstyle.version>
         <no-test-jar>false</no-test-jar>
     </properties>
@@ -277,15 +277,14 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>metrics</artifactId>
-            <version>4.2.18-439.v86a_20b_a_8318b_</version>
         </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>io.jenkins.tools.bom</groupId>
-                <artifactId>bom-2.375.x</artifactId>
-                <version>2179.v0884e842b_859</version>
+                <artifactId>bom-2.440.x</artifactId>
+                <version>3234.v5ca_5154341ef</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
